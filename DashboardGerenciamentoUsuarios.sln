@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{6169BA4D-0237-489A-831F-F3FE8D99FFF5}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DashboardGerenciamentoUsuarios.Core", "DashboardGerenciamentoUsuarios.Core\DashboardGerenciamentoUsuarios.Core.csproj", "{D34037FC-EFB7-40A7-8785-E179CCD0F8BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DashboardGerenciamentoUsuarios.Application", "DashboardGerenciamentoUsuarios.Application\DashboardGerenciamentoUsuarios.Application.csproj", "{E0878A1B-DA36-4550-A9CD-5E893339B926}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DashboardGerenciamentoUsuarios.Infrastructure", "DashboardGerenciamentoUsuarios.Infrastructure\DashboardGerenciamentoUsuarios.Infrastructure.csproj", "{E0E12100-6DD8-4884-B8BB-6F15880ED105}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashboardGerenciamentoUsuarios.API", "DashboardGerenciamentoUsuarios.API\DashboardGerenciamentoUsuarios.API.csproj", "{59401900-4038-4C0F-B8F8-A5740591C61B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D34037FC-EFB7-40A7-8785-E179CCD0F8BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D34037FC-EFB7-40A7-8785-E179CCD0F8BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D34037FC-EFB7-40A7-8785-E179CCD0F8BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D34037FC-EFB7-40A7-8785-E179CCD0F8BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0878A1B-DA36-4550-A9CD-5E893339B926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0878A1B-DA36-4550-A9CD-5E893339B926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0878A1B-DA36-4550-A9CD-5E893339B926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0878A1B-DA36-4550-A9CD-5E893339B926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0E12100-6DD8-4884-B8BB-6F15880ED105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0E12100-6DD8-4884-B8BB-6F15880ED105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0E12100-6DD8-4884-B8BB-6F15880ED105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0E12100-6DD8-4884-B8BB-6F15880ED105}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59401900-4038-4C0F-B8F8-A5740591C61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59401900-4038-4C0F-B8F8-A5740591C61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59401900-4038-4C0F-B8F8-A5740591C61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59401900-4038-4C0F-B8F8-A5740591C61B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73D269E1-5F14-4AD0-9020-E30149D4AE0A}
+	EndGlobalSection
+EndGlobal
