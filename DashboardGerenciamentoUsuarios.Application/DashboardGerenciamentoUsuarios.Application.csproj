@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DashboardGerenciamentoUsuarios.Core\DashboardGerenciamentoUsuarios.Core.csproj" />
+  </ItemGroup>
+
 </Project>
