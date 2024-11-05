@@ -1,9 +1,16 @@
+using DashboardGerenciamentoUsuarios.Application.Services;
+using DashboardGerenciamentoUsuarios.Core.Interfaces;
+using DashboardGerenciamentoUsuarios.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Adicionar serviços ao contêiner.
 builder.Services.AddRazorPages();
+
+// Registra o repositório e o serviço de usuário
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<UserService>();
 
 // Configuração do EF Core com a string de conexão
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -11,11 +18,10 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configurar o pipeline de requisição HTTP.
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
